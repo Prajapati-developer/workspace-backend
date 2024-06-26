@@ -52,10 +52,10 @@ app.post("/login", async (req, res) => {
       message: "Invalid Credentials ",
     });
   }
-
+  console.log("user=========>", user);
   if (user.status == "D") {
     return res.status(400).json({
-      message: "Sorry ! Your Account is Deactivated ",
+      message: "Sorry ! Account is Deactivated ",
     });
   }
 
@@ -98,6 +98,7 @@ app.post("/updateWorkspaceStatus", async (req, res) => {
   const { id, status } = req.body;
 
   let workspaceData = await fs.readFile("./data/workspace.json", "utf8");
+  let userData = await fs.readFile("./data/users.json", "utf8");
 
   const data = JSON.parse(workspaceData);
 

@@ -1,60 +1,37 @@
 [
   {
-    "id": 1,
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg",
-    "name": "Google ",
-    "email": "googleworkspace@gmail.com",
-    "password": "google@123",
-    "address": "1600 Amphitheatre Parkway Mountain View, CA 94043, USA",
-    "status": "D",
-    "success": true,
-    "message": "Workspace Data Fetched Successfully !!",
-    "mobile": "9888888080"
-  },
-  {
     "name": "Accenture",
-    "password": "ac@1234",
+    "password": "accenture",
     "email": "accenture@gmail.com",
     "mobile": "8989749397",
     "logo": "https://i.pinimg.com/736x/ed/76/0c/ed760cdabc8f538071b15cc22abb4651.jpg",
-    "address": " PLANT 3, GODREJ & BOYCE COMPLEX, LBS MARG, VIKHROLI (WEST) MUMBAI MH 400079 IN.",
+    "address": "PLANT 31, GODREJ & BOYCE COMPLEX, LBS MARG, VIKHROLI (WEST) MUMBAI MH 400079 IN.",
     "status": "A",
-    "id": 789,
+    "role": "",
+    "id": 93,
     "success": true,
     "message": "Workspace Data Fetched Successfully !!"
   },
   {
+    "name": "Google",
+    "email": "googleworkspace@gmail.com",
+    "password": "google@123",
+    "mobile": "\t9888888080",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg",
+    "address": "\t1600 Amphitheatre Parkway Mountain View, CA 94043, USA",
+    "status": "A",
+    "role": "",
+    "id": 916
+  },
+  {
     "name": "Tata Consultancy Services",
-    "password": "tcs@1234",
+    "password": "tcs",
     "email": "tcs@gmail.com",
     "mobile": "790869696",
     "logo": "https://logowik.com/content/uploads/images/tcs-tata-consultancy-services2792.logowik.com.webp",
     "address": "801/1001, Sakar II, Off Ashram Road Ellis Bridge, Ahmedabad, Ahmedabad - 380 006",
     "status": "A",
-    "id": 747
-  },
-  {
-    "name": "jsdhfjsdh csf",
-    "password": "shdfjh",
-    "email": "jennadooley@gmail.com",
-    "mobile": "7337256170",
-    "logo": "http://url",
-    "address": "jhsdjfhdsjf",
-    "status": "A",
     "role": "",
-    "id": 27,
-    "success": true,
-    "message": "Workspace Data Fetched Successfully !!"
-  },
-  {
-    "name": "Jenna Dooley mamta",
-    "password": "test",
-    "email": "test@gmail.com",
-    "mobile": "7993453919",
-    "logo": "http://url",
-    "address": "sajhdfjash",
-    "status": "A",
-    "role": "",
-    "id": 855
+    "id": 265
   }
 ]
